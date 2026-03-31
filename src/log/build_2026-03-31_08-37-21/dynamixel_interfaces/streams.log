@@ -1,0 +1,342 @@
+[0.022s] Invoking command in '/home/ros/colcon_ws/src/build/dynamixel_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros/colcon_ws/src/dynamixel_interfaces -DCMAKE_INSTALL_PREFIX=/home/ros/colcon_ws/src/install/dynamixel_interfaces
+[0.109s] -- The C compiler identification is GNU 11.4.0
+[0.208s] -- The CXX compiler identification is GNU 11.4.0
+[0.218s] -- Detecting C compiler ABI info
+[0.320s] -- Detecting C compiler ABI info - done
+[0.332s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.332s] -- Detecting C compile features
+[0.332s] -- Detecting C compile features - done
+[0.336s] -- Detecting CXX compiler ABI info
+[0.453s] -- Detecting CXX compiler ABI info - done
+[0.459s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.460s] -- Detecting CXX compile features
+[0.460s] -- Detecting CXX compile features - done
+[0.466s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.691s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.852s] -- Found std_msgs: 4.9.1 (/opt/ros/humble/share/std_msgs/cmake)
+[0.905s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.914s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.929s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.951s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.979s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.023s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.050s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.065s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.520s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.974s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.042s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.045s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.117s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.117s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.118s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.118s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.155s] -- Found PythonExtra: .so  
+[4.304s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.367s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.391s] -- Added test 'lint_cmake' to check CMake code style
+[4.412s] -- Added test 'xmllint' to check XML markup files
+[4.426s] -- Configuring done
+[4.559s] -- Generating done
+[4.612s] -- Build files have been written to: /home/ros/colcon_ws/src/build/dynamixel_interfaces
+[4.656s] Invoked command in '/home/ros/colcon_ws/src/build/dynamixel_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros/colcon_ws/src/dynamixel_interfaces -DCMAKE_INSTALL_PREFIX=/home/ros/colcon_ws/src/install/dynamixel_interfaces
+[4.657s] Invoking command in '/home/ros/colcon_ws/src/build/dynamixel_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/colcon_ws/src/build/dynamixel_interfaces -- -j8 -l8
+[4.760s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.786s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.817s] [  3%] Built target ament_cmake_python_copy_dynamixel_interfaces
+[5.369s] running egg_info
+[5.369s] creating dynamixel_interfaces.egg-info
+[5.369s] writing dynamixel_interfaces.egg-info/PKG-INFO
+[5.370s] writing dependency_links to dynamixel_interfaces.egg-info/dependency_links.txt
+[5.370s] writing top-level names to dynamixel_interfaces.egg-info/top_level.txt
+[5.378s] writing manifest file 'dynamixel_interfaces.egg-info/SOURCES.txt'
+[5.378s] reading manifest file 'dynamixel_interfaces.egg-info/SOURCES.txt'
+[5.378s] writing manifest file 'dynamixel_interfaces.egg-info/SOURCES.txt'
+[5.435s] [  3%] Built target ament_cmake_python_build_dynamixel_interfaces_egg
+[7.363s] [  5%] [32mBuilding C object CMakeFiles/dynamixel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_interfaces/msg/detail/dynamixel_state__functions.c.o[0m
+[7.372s] [  9%] [32mBuilding C object CMakeFiles/dynamixel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_interfaces/srv/detail/reboot_dxl__functions.c.o[0m
+[7.377s] [  9%] [32mBuilding C object CMakeFiles/dynamixel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_interfaces/srv/detail/set_data_to_dxl__functions.c.o[0m
+[7.377s] [ 10%] [32mBuilding C object CMakeFiles/dynamixel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_interfaces/srv/detail/get_data_from_dxl__functions.c.o[0m
+[7.423s] [ 10%] Built target dynamixel_interfaces__cpp
+[7.463s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[7.465s] [ 14%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.472s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[7.649s] [ 18%] [32m[1mLinking C shared library libdynamixel_interfaces__rosidl_generator_c.so[0m
+[7.759s] [ 18%] Built target dynamixel_interfaces__rosidl_generator_c
+[7.805s] [ 20%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[7.817s] [ 21%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[7.831s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[9.247s] [ 25%] [32mBuilding CXX object CMakeFiles/dynamixel_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamixel_interfaces/msg/dynamixel_state__type_support.cpp.o[0m
+[9.264s] [ 27%] [32mBuilding CXX object CMakeFiles/dynamixel_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamixel_interfaces/srv/get_data_from_dxl__type_support.cpp.o[0m
+[9.281s] [ 29%] [32mBuilding CXX object CMakeFiles/dynamixel_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamixel_interfaces/srv/set_data_to_dxl__type_support.cpp.o[0m
+[9.339s] [ 30%] [32mBuilding CXX object CMakeFiles/dynamixel_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamixel_interfaces/msg/detail/dynamixel_state__type_support.cpp.o[0m
+[9.749s] [ 32%] [32mBuilding C object CMakeFiles/dynamixel_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamixel_interfaces/msg/detail/dynamixel_state__type_support.c.o[0m
+[9.820s] [ 34%] [32mBuilding CXX object CMakeFiles/dynamixel_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamixel_interfaces/msg/dynamixel_state__type_support.cpp.o[0m
+[9.917s] [ 36%] [32mBuilding CXX object CMakeFiles/dynamixel_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamixel_interfaces/srv/get_data_from_dxl__type_support.cpp.o[0m
+[9.972s] [ 38%] [32mBuilding C object CMakeFiles/dynamixel_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamixel_interfaces/srv/detail/get_data_from_dxl__type_support.c.o[0m
+[10.020s] [ 40%] [32mBuilding CXX object CMakeFiles/dynamixel_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamixel_interfaces/srv/set_data_to_dxl__type_support.cpp.o[0m
+[10.099s] [ 41%] [32mBuilding CXX object CMakeFiles/dynamixel_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamixel_interfaces/srv/reboot_dxl__type_support.cpp.o[0m
+[10.120s] [ 43%] [32mBuilding C object CMakeFiles/dynamixel_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamixel_interfaces/srv/detail/set_data_to_dxl__type_support.c.o[0m
+[10.171s] [ 45%] [32mBuilding C object CMakeFiles/dynamixel_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamixel_interfaces/srv/detail/reboot_dxl__type_support.c.o[0m
+[10.193s] [ 47%] [32mBuilding CXX object CMakeFiles/dynamixel_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamixel_interfaces/srv/reboot_dxl__type_support.cpp.o[0m
+[10.214s] [ 49%] [32m[1mLinking CXX shared library libdynamixel_interfaces__rosidl_typesupport_c.so[0m
+[10.267s] [ 50%] [32m[1mLinking C shared library libdynamixel_interfaces__rosidl_typesupport_introspection_c.so[0m
+[10.272s] [ 52%] [32mBuilding CXX object CMakeFiles/dynamixel_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamixel_interfaces/srv/detail/get_data_from_dxl__type_support.cpp.o[0m
+[10.293s] [ 54%] [32mBuilding CXX object CMakeFiles/dynamixel_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamixel_interfaces/srv/detail/set_data_to_dxl__type_support.cpp.o[0m
+[10.346s] [ 54%] Built target dynamixel_interfaces__rosidl_typesupport_c
+[10.386s] [ 56%] [32mBuilding CXX object CMakeFiles/dynamixel_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamixel_interfaces/srv/detail/reboot_dxl__type_support.cpp.o[0m
+[10.408s] [ 56%] Built target dynamixel_interfaces__rosidl_typesupport_introspection_c
+[10.483s] [ 58%] [32mBuilding CXX object CMakeFiles/dynamixel_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamixel_interfaces/srv/detail/dds_fastrtps/get_data_from_dxl__type_support.cpp.o[0m
+[10.484s] [ 60%] [32mBuilding CXX object CMakeFiles/dynamixel_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamixel_interfaces/msg/detail/dds_fastrtps/dynamixel_state__type_support.cpp.o[0m
+[10.498s] [ 61%] [32mBuilding CXX object CMakeFiles/dynamixel_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamixel_interfaces/msg/detail/dynamixel_state__type_support_c.cpp.o[0m
+[10.706s] [ 63%] [32m[1mLinking CXX shared library libdynamixel_interfaces__rosidl_typesupport_cpp.so[0m
+[10.818s] [ 63%] Built target dynamixel_interfaces__rosidl_typesupport_cpp
+[10.850s] [ 65%] [32mBuilding CXX object CMakeFiles/dynamixel_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamixel_interfaces/srv/detail/get_data_from_dxl__type_support_c.cpp.o[0m
+[11.402s] [ 67%] [32mBuilding CXX object CMakeFiles/dynamixel_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamixel_interfaces/srv/detail/dds_fastrtps/set_data_to_dxl__type_support.cpp.o[0m
+[11.517s] [ 69%] [32mBuilding CXX object CMakeFiles/dynamixel_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamixel_interfaces/srv/detail/set_data_to_dxl__type_support_c.cpp.o[0m
+[11.782s] [ 70%] [32mBuilding CXX object CMakeFiles/dynamixel_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamixel_interfaces/srv/detail/reboot_dxl__type_support_c.cpp.o[0m
+[11.872s] [ 72%] [32mBuilding CXX object CMakeFiles/dynamixel_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamixel_interfaces/srv/detail/dds_fastrtps/reboot_dxl__type_support.cpp.o[0m
+[12.371s] [ 74%] [32m[1mLinking CXX shared library libdynamixel_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[12.673s] [ 76%] [32m[1mLinking CXX shared library libdynamixel_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[12.688s] [ 76%] Built target dynamixel_interfaces__rosidl_typesupport_introspection_cpp
+[12.892s] [ 76%] Built target dynamixel_interfaces__rosidl_typesupport_fastrtps_cpp
+[13.136s] [ 78%] [32m[1mLinking CXX shared library libdynamixel_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[13.403s] [ 78%] Built target dynamixel_interfaces__rosidl_typesupport_fastrtps_c
+[13.476s] [ 78%] Built target dynamixel_interfaces
+[13.555s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[16.116s] [ 80%] Built target dynamixel_interfaces__py
+[16.186s] [ 81%] [32mBuilding C object CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_get_data_from_dxl_s.c.o[0m
+[16.193s] [ 83%] [32mBuilding C object CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/msg/_dynamixel_state_s.c.o[0m
+[16.193s] [ 85%] [32mBuilding C object CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_set_data_to_dxl_s.c.o[0m
+[16.198s] [ 87%] [32mBuilding C object CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_reboot_dxl_s.c.o[0m
+[16.602s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/dynamixel_interfaces/libdynamixel_interfaces__rosidl_generator_py.so[0m
+[16.733s] [ 89%] Built target dynamixel_interfaces__rosidl_generator_py
+[16.804s] [ 90%] [32mBuilding C object CMakeFiles/dynamixel_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/dynamixel_interfaces/_dynamixel_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[16.812s] [ 92%] [32mBuilding C object CMakeFiles/dynamixel_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/dynamixel_interfaces/_dynamixel_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[16.813s] [ 94%] [32mBuilding C object CMakeFiles/dynamixel_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/dynamixel_interfaces/_dynamixel_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[17.063s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/dynamixel_interfaces/dynamixel_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[17.097s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/dynamixel_interfaces/dynamixel_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[17.181s] [ 98%] Built target dynamixel_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[17.223s] [100%] [32m[1mLinking C shared library rosidl_generator_py/dynamixel_interfaces/dynamixel_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[17.241s] [100%] Built target dynamixel_interfaces__rosidl_typesupport_introspection_c__pyext
+[17.363s] [100%] Built target dynamixel_interfaces__rosidl_typesupport_c__pyext
+[17.410s] Invoked command in '/home/ros/colcon_ws/src/build/dynamixel_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/colcon_ws/src/build/dynamixel_interfaces -- -j8 -l8
+[17.411s] Invoking command in '/home/ros/colcon_ws/src/build/dynamixel_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/colcon_ws/src/build/dynamixel_interfaces
+[17.433s] -- Install configuration: ""
+[17.437s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/share/ament_index/resource_index/rosidl_interfaces/dynamixel_interfaces
+[17.437s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces
+[17.437s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/msg
+[17.441s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/msg/dynamixel_state.h
+[17.441s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/msg/detail
+[17.442s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/msg/detail/dynamixel_state__type_support.h
+[17.442s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/msg/detail/dynamixel_state__functions.h
+[17.442s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/msg/detail/dynamixel_state__struct.h
+[17.442s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/msg/detail/dynamixel_state__functions.c
+[17.443s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/msg/rosidl_generator_c__visibility_control.h
+[17.443s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv
+[17.443s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/set_data_to_dxl.h
+[17.443s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail
+[17.443s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/set_data_to_dxl__type_support.h
+[17.443s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/get_data_from_dxl__struct.h
+[17.444s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/reboot_dxl__functions.h
+[17.444s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/set_data_to_dxl__functions.h
+[17.444s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/get_data_from_dxl__functions.c
+[17.444s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/set_data_to_dxl__struct.h
+[17.445s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/get_data_from_dxl__type_support.h
+[17.445s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/reboot_dxl__functions.c
+[17.448s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/reboot_dxl__struct.h
+[17.448s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/set_data_to_dxl__functions.c
+[17.449s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/reboot_dxl__type_support.h
+[17.450s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/get_data_from_dxl__functions.h
+[17.450s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/reboot_dxl.h
+[17.451s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/get_data_from_dxl.h
+[17.451s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/share/dynamixel_interfaces/environment/library_path.sh
+[17.451s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/share/dynamixel_interfaces/environment/library_path.dsv
+[17.452s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/lib/libdynamixel_interfaces__rosidl_generator_c.so
+[17.452s] -- Set runtime path of "/home/ros/colcon_ws/src/install/dynamixel_interfaces/lib/libdynamixel_interfaces__rosidl_generator_c.so" to ""
+[17.452s] -- Up-to-date: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces
+[17.453s] -- Up-to-date: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/msg
+[17.454s] -- Up-to-date: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/msg/detail
+[17.454s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/msg/detail/dynamixel_state__rosidl_typesupport_fastrtps_c.h
+[17.454s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[17.454s] -- Up-to-date: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv
+[17.455s] -- Up-to-date: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail
+[17.455s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/set_data_to_dxl__rosidl_typesupport_fastrtps_c.h
+[17.455s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/get_data_from_dxl__rosidl_typesupport_fastrtps_c.h
+[17.455s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/reboot_dxl__rosidl_typesupport_fastrtps_c.h
+[17.455s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/lib/libdynamixel_interfaces__rosidl_typesupport_fastrtps_c.so
+[17.462s] -- Set runtime path of "/home/ros/colcon_ws/src/install/dynamixel_interfaces/lib/libdynamixel_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[17.462s] -- Up-to-date: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces
+[17.462s] -- Up-to-date: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/msg
+[17.463s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[17.463s] -- Up-to-date: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/msg/detail
+[17.463s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/msg/detail/dynamixel_state__struct.hpp
+[17.463s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/msg/detail/dynamixel_state__traits.hpp
+[17.463s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/msg/detail/dynamixel_state__type_support.hpp
+[17.463s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/msg/detail/dynamixel_state__builder.hpp
+[17.463s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/msg/dynamixel_state.hpp
+[17.463s] -- Up-to-date: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv
+[17.464s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/reboot_dxl.hpp
+[17.464s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/set_data_to_dxl.hpp
+[17.467s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/get_data_from_dxl.hpp
+[17.467s] -- Up-to-date: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail
+[17.467s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/set_data_to_dxl__struct.hpp
+[17.468s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/get_data_from_dxl__builder.hpp
+[17.468s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/reboot_dxl__struct.hpp
+[17.468s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/set_data_to_dxl__builder.hpp
+[17.468s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/reboot_dxl__type_support.hpp
+[17.468s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/reboot_dxl__traits.hpp
+[17.468s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/get_data_from_dxl__type_support.hpp
+[17.468s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/set_data_to_dxl__traits.hpp
+[17.468s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/reboot_dxl__builder.hpp
+[17.469s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/get_data_from_dxl__traits.hpp
+[17.469s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/set_data_to_dxl__type_support.hpp
+[17.469s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/get_data_from_dxl__struct.hpp
+[17.469s] -- Up-to-date: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces
+[17.470s] -- Up-to-date: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/msg
+[17.470s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[17.470s] -- Up-to-date: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/msg/detail
+[17.470s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/msg/detail/dynamixel_state__rosidl_typesupport_fastrtps_cpp.hpp
+[17.470s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/msg/detail/dds_fastrtps
+[17.470s] -- Up-to-date: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv
+[17.470s] -- Up-to-date: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail
+[17.470s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/get_data_from_dxl__rosidl_typesupport_fastrtps_cpp.hpp
+[17.476s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/reboot_dxl__rosidl_typesupport_fastrtps_cpp.hpp
+[17.476s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/set_data_to_dxl__rosidl_typesupport_fastrtps_cpp.hpp
+[17.477s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/dds_fastrtps
+[17.477s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/lib/libdynamixel_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[17.477s] -- Set runtime path of "/home/ros/colcon_ws/src/install/dynamixel_interfaces/lib/libdynamixel_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[17.477s] -- Up-to-date: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces
+[17.479s] -- Up-to-date: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/msg
+[17.479s] -- Up-to-date: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/msg/detail
+[17.479s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/msg/detail/dynamixel_state__rosidl_typesupport_introspection_c.h
+[17.480s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/msg/detail/dynamixel_state__type_support.c
+[17.480s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[17.480s] -- Up-to-date: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv
+[17.480s] -- Up-to-date: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail
+[17.484s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/reboot_dxl__type_support.c
+[17.484s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/get_data_from_dxl__type_support.c
+[17.484s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/get_data_from_dxl__rosidl_typesupport_introspection_c.h
+[17.484s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/set_data_to_dxl__type_support.c
+[17.485s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/reboot_dxl__rosidl_typesupport_introspection_c.h
+[17.485s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/set_data_to_dxl__rosidl_typesupport_introspection_c.h
+[17.485s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/lib/libdynamixel_interfaces__rosidl_typesupport_introspection_c.so
+[17.485s] -- Set runtime path of "/home/ros/colcon_ws/src/install/dynamixel_interfaces/lib/libdynamixel_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[17.485s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/lib/libdynamixel_interfaces__rosidl_typesupport_c.so
+[17.485s] -- Set runtime path of "/home/ros/colcon_ws/src/install/dynamixel_interfaces/lib/libdynamixel_interfaces__rosidl_typesupport_c.so" to ""
+[17.485s] -- Up-to-date: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces
+[17.485s] -- Up-to-date: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/msg
+[17.485s] -- Up-to-date: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/msg/detail
+[17.486s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/msg/detail/dynamixel_state__rosidl_typesupport_introspection_cpp.hpp
+[17.488s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/msg/detail/dynamixel_state__type_support.cpp
+[17.488s] -- Up-to-date: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv
+[17.489s] -- Up-to-date: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail
+[17.489s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/get_data_from_dxl__rosidl_typesupport_introspection_cpp.hpp
+[17.489s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/reboot_dxl__type_support.cpp
+[17.490s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/set_data_to_dxl__type_support.cpp
+[17.490s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/reboot_dxl__rosidl_typesupport_introspection_cpp.hpp
+[17.494s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/get_data_from_dxl__type_support.cpp
+[17.494s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/set_data_to_dxl__rosidl_typesupport_introspection_cpp.hpp
+[17.494s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/lib/libdynamixel_interfaces__rosidl_typesupport_introspection_cpp.so
+[17.495s] -- Set runtime path of "/home/ros/colcon_ws/src/install/dynamixel_interfaces/lib/libdynamixel_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[17.495s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/lib/libdynamixel_interfaces__rosidl_typesupport_cpp.so
+[17.495s] -- Set runtime path of "/home/ros/colcon_ws/src/install/dynamixel_interfaces/lib/libdynamixel_interfaces__rosidl_typesupport_cpp.so" to ""
+[17.495s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/share/dynamixel_interfaces/environment/pythonpath.sh
+[17.496s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/share/dynamixel_interfaces/environment/pythonpath.dsv
+[17.496s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces-1.0.1-py3.10.egg-info
+[17.496s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces-1.0.1-py3.10.egg-info/SOURCES.txt
+[17.497s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces-1.0.1-py3.10.egg-info/top_level.txt
+[17.500s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces-1.0.1-py3.10.egg-info/dependency_links.txt
+[17.500s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces-1.0.1-py3.10.egg-info/PKG-INFO
+[17.501s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces
+[17.501s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/dynamixel_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[17.501s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/msg
+[17.501s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/msg/__init__.py
+[17.502s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/msg/_dynamixel_state_s.c
+[17.502s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/msg/_dynamixel_state.py
+[17.502s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/_dynamixel_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[17.504s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/__init__.py
+[17.504s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/dynamixel_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[17.504s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/_dynamixel_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[17.507s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/_dynamixel_interfaces_s.ep.rosidl_typesupport_c.c
+[17.507s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/dynamixel_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[17.508s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/srv
+[17.508s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/srv/_get_data_from_dxl_s.c
+[17.509s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/srv/_get_data_from_dxl.py
+[17.509s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/srv/_set_data_to_dxl_s.c
+[17.509s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/srv/__init__.py
+[17.510s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/srv/_reboot_dxl_s.c
+[17.510s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/srv/_set_data_to_dxl.py
+[17.510s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/srv/_reboot_dxl.py
+[17.510s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/libdynamixel_interfaces__rosidl_generator_py.so
+[17.674s] Listing '/home/ros/colcon_ws/src/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces'...
+[17.674s] Compiling '/home/ros/colcon_ws/src/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/__init__.py'...
+[17.674s] Listing '/home/ros/colcon_ws/src/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/msg'...
+[17.674s] Compiling '/home/ros/colcon_ws/src/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/msg/__init__.py'...
+[17.674s] Compiling '/home/ros/colcon_ws/src/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/msg/_dynamixel_state.py'...
+[17.674s] Listing '/home/ros/colcon_ws/src/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/srv'...
+[17.674s] Compiling '/home/ros/colcon_ws/src/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/srv/__init__.py'...
+[17.675s] Compiling '/home/ros/colcon_ws/src/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/srv/_get_data_from_dxl.py'...
+[17.675s] Compiling '/home/ros/colcon_ws/src/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/srv/_reboot_dxl.py'...
+[17.675s] Compiling '/home/ros/colcon_ws/src/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/srv/_set_data_to_dxl.py'...
+[17.701s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/dynamixel_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[17.703s] -- Set runtime path of "/home/ros/colcon_ws/src/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/dynamixel_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[17.703s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/dynamixel_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[17.704s] -- Set runtime path of "/home/ros/colcon_ws/src/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/dynamixel_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[17.704s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/dynamixel_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[17.707s] -- Set runtime path of "/home/ros/colcon_ws/src/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/dynamixel_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[17.707s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/lib/libdynamixel_interfaces__rosidl_generator_py.so
+[17.707s] -- Set runtime path of "/home/ros/colcon_ws/src/install/dynamixel_interfaces/lib/libdynamixel_interfaces__rosidl_generator_py.so" to ""
+[17.707s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/share/dynamixel_interfaces/msg/DynamixelState.idl
+[17.707s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/share/dynamixel_interfaces/srv/GetDataFromDxl.idl
+[17.707s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/share/dynamixel_interfaces/srv/SetDataToDxl.idl
+[17.707s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/share/dynamixel_interfaces/srv/RebootDxl.idl
+[17.708s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/share/dynamixel_interfaces/msg/DynamixelState.msg
+[17.713s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/share/dynamixel_interfaces/srv/GetDataFromDxl.srv
+[17.713s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/share/dynamixel_interfaces/srv/GetDataFromDxl_Request.msg
+[17.713s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/share/dynamixel_interfaces/srv/GetDataFromDxl_Response.msg
+[17.713s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/share/dynamixel_interfaces/srv/SetDataToDxl.srv
+[17.714s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/share/dynamixel_interfaces/srv/SetDataToDxl_Request.msg
+[17.714s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/share/dynamixel_interfaces/srv/SetDataToDxl_Response.msg
+[17.714s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/share/dynamixel_interfaces/srv/RebootDxl.srv
+[17.715s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/share/dynamixel_interfaces/srv/RebootDxl_Request.msg
+[17.715s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/share/dynamixel_interfaces/srv/RebootDxl_Response.msg
+[17.715s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/share/ament_index/resource_index/package_run_dependencies/dynamixel_interfaces
+[17.717s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/share/ament_index/resource_index/parent_prefix_path/dynamixel_interfaces
+[17.717s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/share/dynamixel_interfaces/environment/ament_prefix_path.sh
+[17.717s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/share/dynamixel_interfaces/environment/ament_prefix_path.dsv
+[17.720s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/share/dynamixel_interfaces/environment/path.sh
+[17.720s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/share/dynamixel_interfaces/environment/path.dsv
+[17.720s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/share/dynamixel_interfaces/local_setup.bash
+[17.721s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/share/dynamixel_interfaces/local_setup.sh
+[17.721s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/share/dynamixel_interfaces/local_setup.zsh
+[17.721s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/share/dynamixel_interfaces/local_setup.dsv
+[17.721s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/share/dynamixel_interfaces/package.dsv
+[17.723s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/share/ament_index/resource_index/packages/dynamixel_interfaces
+[17.723s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/share/dynamixel_interfaces/cmake/export_dynamixel_interfaces__rosidl_generator_cExport.cmake
+[17.723s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/share/dynamixel_interfaces/cmake/export_dynamixel_interfaces__rosidl_generator_cExport-noconfig.cmake
+[17.723s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/share/dynamixel_interfaces/cmake/export_dynamixel_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[17.724s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/share/dynamixel_interfaces/cmake/export_dynamixel_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[17.724s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/share/dynamixel_interfaces/cmake/export_dynamixel_interfaces__rosidl_generator_cppExport.cmake
+[17.724s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/share/dynamixel_interfaces/cmake/export_dynamixel_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[17.725s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/share/dynamixel_interfaces/cmake/export_dynamixel_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[17.729s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/share/dynamixel_interfaces/cmake/dynamixel_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[17.729s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/share/dynamixel_interfaces/cmake/dynamixel_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[17.729s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/share/dynamixel_interfaces/cmake/dynamixel_interfaces__rosidl_typesupport_cExport.cmake
+[17.730s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/share/dynamixel_interfaces/cmake/dynamixel_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[17.730s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/share/dynamixel_interfaces/cmake/dynamixel_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[17.730s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/share/dynamixel_interfaces/cmake/dynamixel_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[17.733s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/share/dynamixel_interfaces/cmake/dynamixel_interfaces__rosidl_typesupport_cppExport.cmake
+[17.733s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/share/dynamixel_interfaces/cmake/dynamixel_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[17.733s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/share/dynamixel_interfaces/cmake/export_dynamixel_interfaces__rosidl_generator_pyExport.cmake
+[17.734s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/share/dynamixel_interfaces/cmake/export_dynamixel_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[17.735s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/share/dynamixel_interfaces/cmake/rosidl_cmake-extras.cmake
+[17.735s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/share/dynamixel_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[17.735s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/share/dynamixel_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[17.735s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/share/dynamixel_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[17.736s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/share/dynamixel_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[17.736s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/share/dynamixel_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[17.736s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/share/dynamixel_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[17.737s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/share/dynamixel_interfaces/cmake/dynamixel_interfacesConfig.cmake
+[17.737s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/share/dynamixel_interfaces/cmake/dynamixel_interfacesConfig-version.cmake
+[17.740s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_interfaces/share/dynamixel_interfaces/package.xml
+[17.746s] Invoked command in '/home/ros/colcon_ws/src/build/dynamixel_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/colcon_ws/src/build/dynamixel_interfaces

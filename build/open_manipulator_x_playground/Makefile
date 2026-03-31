@@ -210,6 +210,19 @@ hello_moveit/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_moveit.dir/build.make CMakeFiles/hello_moveit.dir/build
 .PHONY : hello_moveit/fast
 
+#=============================================================================
+# Target rules for targets named main
+
+# Build rule for target.
+main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main
+.PHONY : main
+
+# fast build rule for target.
+main/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
+
 src/hello_moveit.o: src/hello_moveit.cpp.o
 .PHONY : src/hello_moveit.o
 
@@ -234,6 +247,30 @@ src/hello_moveit.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_moveit.dir/build.make CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.s
 .PHONY : src/hello_moveit.cpp.s
 
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -250,9 +287,13 @@ help:
 	@echo "... open_manipulator_x_playground_uninstall"
 	@echo "... uninstall"
 	@echo "... hello_moveit"
+	@echo "... main"
 	@echo "... src/hello_moveit.o"
 	@echo "... src/hello_moveit.i"
 	@echo "... src/hello_moveit.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 

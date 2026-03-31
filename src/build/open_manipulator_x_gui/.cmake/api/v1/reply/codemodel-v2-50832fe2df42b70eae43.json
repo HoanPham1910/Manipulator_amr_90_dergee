@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-4574b1ff2989e258098d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "open_manipulator_x_gui",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "copy_ui_header::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-copy_ui_header-cad5a90912c42bdef372.json",
+					"name" : "copy_ui_header",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "open_manipulator_x_gui_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-open_manipulator_x_gui_node-2da8255aef8e51883a45.json",
+					"name" : "open_manipulator_x_gui_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "open_manipulator_x_gui_node_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-open_manipulator_x_gui_node_autogen-89befd3c23046ec8843a.json",
+					"name" : "open_manipulator_x_gui_node_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "open_manipulator_x_gui_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-open_manipulator_x_gui_uninstall-0cfae21a5ca8f1a56bd6.json",
+					"name" : "open_manipulator_x_gui_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-fb14d4c521d110cef7b6.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ros/colcon_ws/src/build/open_manipulator_x_gui",
+		"source" : "/home/ros/colcon_ws/src/open_manipulator/open_manipulator_x_gui"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

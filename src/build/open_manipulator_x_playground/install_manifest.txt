@@ -1,0 +1,17 @@
+/home/ros/colcon_ws/src/install/open_manipulator_x_playground/lib/open_manipulator_x_playground/hello_moveit
+/home/ros/colcon_ws/src/install/open_manipulator_x_playground/lib/open_manipulator_x_playground/main
+/home/ros/colcon_ws/src/install/open_manipulator_x_playground/share/ament_index/resource_index/package_run_dependencies/open_manipulator_x_playground
+/home/ros/colcon_ws/src/install/open_manipulator_x_playground/share/ament_index/resource_index/parent_prefix_path/open_manipulator_x_playground
+/home/ros/colcon_ws/src/install/open_manipulator_x_playground/share/open_manipulator_x_playground/environment/ament_prefix_path.sh
+/home/ros/colcon_ws/src/install/open_manipulator_x_playground/share/open_manipulator_x_playground/environment/ament_prefix_path.dsv
+/home/ros/colcon_ws/src/install/open_manipulator_x_playground/share/open_manipulator_x_playground/environment/path.sh
+/home/ros/colcon_ws/src/install/open_manipulator_x_playground/share/open_manipulator_x_playground/environment/path.dsv
+/home/ros/colcon_ws/src/install/open_manipulator_x_playground/share/open_manipulator_x_playground/local_setup.bash
+/home/ros/colcon_ws/src/install/open_manipulator_x_playground/share/open_manipulator_x_playground/local_setup.sh
+/home/ros/colcon_ws/src/install/open_manipulator_x_playground/share/open_manipulator_x_playground/local_setup.zsh
+/home/ros/colcon_ws/src/install/open_manipulator_x_playground/share/open_manipulator_x_playground/local_setup.dsv
+/home/ros/colcon_ws/src/install/open_manipulator_x_playground/share/open_manipulator_x_playground/package.dsv
+/home/ros/colcon_ws/src/install/open_manipulator_x_playground/share/ament_index/resource_index/packages/open_manipulator_x_playground
+/home/ros/colcon_ws/src/install/open_manipulator_x_playground/share/open_manipulator_x_playground/cmake/open_manipulator_x_playgroundConfig.cmake
+/home/ros/colcon_ws/src/install/open_manipulator_x_playground/share/open_manipulator_x_playground/cmake/open_manipulator_x_playgroundConfig-version.cmake
+/home/ros/colcon_ws/src/install/open_manipulator_x_playground/share/open_manipulator_x_playground/package.xml

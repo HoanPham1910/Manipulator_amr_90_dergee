@@ -1,0 +1,5 @@
+-I/home/ros/colcon_ws/src/open_manipulator/open_manipulator_x_gui
+-I/home/ros/colcon_ws/src/build/open_manipulator_x_gui
+-o
+/home/ros/colcon_ws/src/build/open_manipulator_x_gui/include/open_manipulator_x_gui/moc_qnode.cpp
+/home/ros/colcon_ws/src/open_manipulator/open_manipulator_x_gui/include/open_manipulator_x_gui/qnode.hpp

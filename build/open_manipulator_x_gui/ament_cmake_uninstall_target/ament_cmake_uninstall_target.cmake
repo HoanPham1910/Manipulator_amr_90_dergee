@@ -55,6 +55,3 @@ endforeach()
 message(STATUS "Execute custom uninstall script")
 
 # begin of custom uninstall code
-
-# uninstall files installed using the symlink install functions
-include("/home/hoan/colcon_ws/build/open_manipulator_x_gui/ament_cmake_symlink_install/ament_cmake_symlink_install_uninstall_script.cmake")

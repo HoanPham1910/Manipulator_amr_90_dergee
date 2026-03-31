@@ -1,0 +1,251 @@
+[0.024s] Invoking command in '/home/ros/colcon_ws/src/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros/colcon_ws/src/DynamixelSDK/ros/dynamixel_sdk -DCMAKE_INSTALL_PREFIX=/home/ros/colcon_ws/src/install/dynamixel_sdk
+[0.117s] -- The C compiler identification is GNU 11.4.0
+[0.216s] -- The CXX compiler identification is GNU 11.4.0
+[0.225s] -- Detecting C compiler ABI info
+[0.331s] -- Detecting C compiler ABI info - done
+[0.342s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.342s] -- Detecting C compile features
+[0.343s] -- Detecting C compile features - done
+[0.349s] -- Detecting CXX compiler ABI info
+[0.458s] -- Detecting CXX compiler ABI info - done
+[0.470s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.471s] -- Detecting CXX compile features
+[0.472s] -- Detecting CXX compile features - done
+[0.476s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.712s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.159s] -- Configuring done
+[1.171s] -- Generating done
+[1.180s] -- Build files have been written to: /home/ros/colcon_ws/src/build/dynamixel_sdk
+[1.187s] Invoked command in '/home/ros/colcon_ws/src/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros/colcon_ws/src/DynamixelSDK/ros/dynamixel_sdk -DCMAKE_INSTALL_PREFIX=/home/ros/colcon_ws/src/install/dynamixel_sdk
+[1.188s] Invoking command in '/home/ros/colcon_ws/src/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/colcon_ws/src/build/dynamixel_sdk -- -j8 -l8
+[2.986s] [  5%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/packet_handler.cpp.o[0m
+[2.986s] [ 11%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol1_packet_handler.cpp.o[0m
+[2.986s] [ 16%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_read.cpp.o[0m
+[2.986s] [ 27%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_write.cpp.o[0m
+[2.986s] [ 27%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol2_packet_handler.cpp.o[0m
+[2.986s] [ 27%] Built target ament_cmake_python_copy_dynamixel_easy_sdk
+[2.986s] [ 27%] Built target ament_cmake_python_copy_dynamixel_sdk
+[2.986s] [ 33%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_read.cpp.o[0m
+[2.986s] [ 38%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_write.cpp.o[0m
+[2.987s] [ 44%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_fast_bulk_read.cpp.o[0m
+[2.987s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_fast_sync_read.cpp.o[0m
+[2.987s] running egg_info
+[2.987s] creating dynamixel_easy_sdk.egg-info
+[2.987s] writing dynamixel_easy_sdk.egg-info/PKG-INFO
+[2.987s] writing dependency_links to dynamixel_easy_sdk.egg-info/dependency_links.txt
+[2.987s] writing top-level names to dynamixel_easy_sdk.egg-info/top_level.txt
+[2.987s] writing manifest file 'dynamixel_easy_sdk.egg-info/SOURCES.txt'
+[2.987s] reading manifest file 'dynamixel_easy_sdk.egg-info/SOURCES.txt'
+[2.987s] writing manifest file 'dynamixel_easy_sdk.egg-info/SOURCES.txt'
+[2.987s] [ 50%] Built target ament_cmake_python_build_dynamixel_easy_sdk_egg
+[2.988s] [ 55%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_handler.cpp.o[0m
+[2.988s] [ 61%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler.cpp.o[0m
+[2.988s] [ 66%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_easy_sdk/connector.cpp.o[0m
+[2.988s] [ 72%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_easy_sdk/control_table.cpp.o[0m
+[2.988s] running egg_info
+[2.988s] creating dynamixel_sdk.egg-info
+[2.988s] writing dynamixel_sdk.egg-info/PKG-INFO
+[2.988s] writing dependency_links to dynamixel_sdk.egg-info/dependency_links.txt
+[2.988s] writing top-level names to dynamixel_sdk.egg-info/top_level.txt
+[2.988s] writing manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'
+[2.988s] reading manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'
+[2.989s] writing manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'
+[2.989s] [ 72%] Built target ament_cmake_python_build_dynamixel_sdk_egg
+[2.989s] [ 83%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_easy_sdk/dynamixel_error.cpp.o[0m
+[2.989s] [ 83%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_easy_sdk/group_executor.cpp.o[0m
+[2.989s] [ 88%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_easy_sdk/motor.cpp.o[0m
+[2.989s] [ 94%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler_linux.cpp.o[0m
+[5.387s] [100%] [32m[1mLinking CXX shared library libdynamixel_sdk.so[0m
+[6.029s] [100%] Built target dynamixel_sdk
+[6.081s] Invoked command in '/home/ros/colcon_ws/src/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/colcon_ws/src/build/dynamixel_sdk -- -j8 -l8
+[6.096s] Invoking command in '/home/ros/colcon_ws/src/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/colcon_ws/src/build/dynamixel_sdk
+[6.122s] -- Install configuration: ""
+[6.122s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/include/
+[6.122s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/include//dynamixel_sdk
+[6.125s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_windows.h
+[6.126s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/group_fast_sync_read.h
+[6.126s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_read.h
+[6.126s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_write.h
+[6.126s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/group_handler.h
+[6.126s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/packet_handler.h
+[6.128s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_read.h
+[6.129s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_arduino.h
+[6.129s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/protocol2_packet_handler.h
+[6.130s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_linux.h
+[6.131s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/port_handler.h
+[6.131s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_write.h
+[6.131s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_mac.h
+[6.131s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/group_fast_bulk_read.h
+[6.137s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/protocol1_packet_handler.h
+[6.138s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/dynamixel_sdk.h
+[6.138s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/include//dynamixel_easy_sdk
+[6.138s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/include//dynamixel_easy_sdk/data_types.hpp
+[6.138s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/include//dynamixel_easy_sdk/motor.hpp
+[6.138s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/include//dynamixel_easy_sdk/connector.hpp
+[6.138s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/include//dynamixel_easy_sdk/control_table.hpp
+[6.138s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/include//dynamixel_easy_sdk/dynamixel_easy_sdk.hpp
+[6.138s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/include//dynamixel_easy_sdk/dynamixel_error.hpp
+[6.138s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/include//dynamixel_easy_sdk/group_executor.hpp
+[6.145s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+[6.150s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table
+[6.150s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/mx_28.model
+[6.151s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xl330_m288.model
+[6.151s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xl330_m077.model
+[6.151s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/2xl430_w250.model
+[6.152s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym070_210_a051.model
+[6.153s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/dynamixel.model
+[6.153s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh540_w270.model
+[6.153s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/mx_64.model
+[6.153s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xl430_w250.model
+[6.154s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_t288_fw52.model
+[6.154s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_m288.model
+[6.154s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym080_230_r051.model
+[6.154s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xl330_m077_fw52.model
+[6.154s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xd430_t210.model
+[6.160s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xw430_t200.model
+[6.161s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/rh_p12_rn.model
+[6.165s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_t288.model
+[6.166s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xd540_t150.model
+[6.166s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xm540_w270.model
+[6.166s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh540_v150.model
+[6.166s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ph54_100_s500.model
+[6.166s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/pm54_040_s250.model
+[6.166s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc430_w150.model
+[6.166s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xd430_t350.model
+[6.166s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xd540_t270.model
+[6.166s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xm430_w350.model
+[6.166s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xw540_h260.model
+[6.167s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xm540_w150.model
+[6.167s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc430_w240.model
+[6.167s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ph54_200_s500.model
+[6.167s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xw540_t140.model
+[6.167s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xl320.model
+[6.167s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh430_w350.model
+[6.167s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_m181.model
+[6.167s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym080_230_a099.model
+[6.172s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ph42_020_s300.model
+[6.172s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_m288_fw52.model
+[6.172s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/h54_200_s500_ra.model
+[6.174s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/m42_10_s260_ra.model
+[6.175s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/mx_106.model
+[6.175s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym080_230_m001.model
+[6.175s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym070_210_a099.model
+[6.175s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/pm54_060_s250.model
+[6.175s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym070_210_m001.model
+[6.175s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xw430_t333.model
+[6.175s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh540_v270.model
+[6.175s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym080_230_r099.model
+[6.177s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/2xc430_w250.model
+[6.178s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/h42_20_s300_ra.model
+[6.178s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh430_w210.model
+[6.181s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xl330_m288_fw52.model
+[6.182s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/pm42_010_s260.model
+[6.182s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh430_v210.model
+[6.182s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/h54_100_s500_ra.model
+[6.182s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xw540_t260.model
+[6.182s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_t181_fw52.model
+[6.185s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xm430_w210.model
+[6.185s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym070_210_r099.model
+[6.186s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym070_210_r051.model
+[6.186s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym070_210_b001.model
+[6.186s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym080_230_b001.model
+[6.186s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh430_v350.model
+[6.186s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_m181_fw52.model
+[6.186s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/m54_60_s250_ra.model
+[6.186s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym080_230_a051.model
+[6.195s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh540_w150.model
+[6.196s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_t181.model
+[6.196s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/control_table/m54_40_s250_ra.model
+[6.196s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/environment/pythonpath.sh
+[6.196s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/environment/pythonpath.dsv
+[6.196s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk-4.0.3-py3.10.egg-info
+[6.196s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk-4.0.3-py3.10.egg-info/SOURCES.txt
+[6.196s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk-4.0.3-py3.10.egg-info/top_level.txt
+[6.196s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk-4.0.3-py3.10.egg-info/dependency_links.txt
+[6.196s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk-4.0.3-py3.10.egg-info/PKG-INFO
+[6.197s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk
+[6.197s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler.py
+[6.197s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler_linux.cpp
+[6.198s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_sync_write.cpp
+[6.204s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_handler.cpp
+[6.204s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/protocol1_packet_handler.cpp
+[6.204s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_fast_sync_read.cpp
+[6.204s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/robotis_def.py
+[6.204s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler.cpp
+[6.204s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_sync_write.py
+[6.204s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_bulk_read.py
+[6.204s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_bulk_write.py
+[6.205s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_sync_read.cpp
+[6.205s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/__init__.py
+[6.205s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/protocol1_packet_handler.py
+[6.205s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_bulk_read.cpp
+[6.206s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/packet_handler.py
+[6.210s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/protocol2_packet_handler.cpp
+[6.210s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/packet_handler.cpp
+[6.211s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler_mac.cpp
+[6.211s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler_arduino.cpp
+[6.216s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/protocol2_packet_handler.py
+[6.216s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler_windows.cpp
+[6.216s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_fast_bulk_read.cpp
+[6.216s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_sync_read.py
+[6.216s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_bulk_write.cpp
+[6.422s] Listing '/home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk'...
+[6.422s] Compiling '/home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/__init__.py'...
+[6.422s] Compiling '/home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_bulk_read.py'...
+[6.422s] Compiling '/home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_bulk_write.py'...
+[6.422s] Compiling '/home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_sync_read.py'...
+[6.422s] Compiling '/home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_sync_write.py'...
+[6.422s] Compiling '/home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/packet_handler.py'...
+[6.422s] Compiling '/home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler.py'...
+[6.423s] Compiling '/home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/protocol1_packet_handler.py'...
+[6.423s] Compiling '/home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/protocol2_packet_handler.py'...
+[6.423s] Compiling '/home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/robotis_def.py'...
+[6.438s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk-4.0.3-py3.10.egg-info
+[6.438s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk-4.0.3-py3.10.egg-info/SOURCES.txt
+[6.439s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk-4.0.3-py3.10.egg-info/top_level.txt
+[6.440s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk-4.0.3-py3.10.egg-info/dependency_links.txt
+[6.440s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk-4.0.3-py3.10.egg-info/PKG-INFO
+[6.444s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk
+[6.444s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/group_executor.py
+[6.444s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/connector.py
+[6.444s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/dynamixel_error.py
+[6.444s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/connector.cpp
+[6.444s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/__init__.py
+[6.446s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/control_table.cpp
+[6.446s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/dynamixel_error.cpp
+[6.447s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/group_executor.cpp
+[6.452s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/motor.cpp
+[6.452s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/motor.py
+[6.452s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/control_table.py
+[6.452s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/data_types.py
+[6.680s] Listing '/home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk'...
+[6.680s] Compiling '/home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/__init__.py'...
+[6.680s] Compiling '/home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/connector.py'...
+[6.680s] Compiling '/home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/control_table.py'...
+[6.681s] Compiling '/home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/data_types.py'...
+[6.681s] Compiling '/home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/dynamixel_error.py'...
+[6.681s] Compiling '/home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/group_executor.py'...
+[6.681s] Compiling '/home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/motor.py'...
+[6.736s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.sh
+[6.737s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.dsv
+[6.741s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk
+[6.741s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk
+[6.741s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.sh
+[6.741s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.dsv
+[6.741s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.sh
+[6.741s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.dsv
+[6.741s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.bash
+[6.741s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.sh
+[6.751s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.zsh
+[6.751s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.dsv
+[6.751s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv
+[6.756s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/ament_index/resource_index/packages/dynamixel_sdk
+[6.756s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkExport.cmake
+[6.756s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkExport-noconfig.cmake
+[6.757s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_targets-extras.cmake
+[6.757s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.765s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+[6.765s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig.cmake
+[6.765s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig-version.cmake
+[6.766s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/package.xml
+[6.769s] Invoked command in '/home/ros/colcon_ws/src/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/colcon_ws/src/build/dynamixel_sdk

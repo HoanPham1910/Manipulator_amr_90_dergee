@@ -1,0 +1,219 @@
+[0.054s] Invoking command in '/home/ros/colcon_ws/src/build/dynamixel_hardware_interface': AMENT_PREFIX_PATH=/home/ros/colcon_ws/src/install/dynamixel_sdk:/home/ros/colcon_ws/src/install/dynamixel_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/colcon_ws/src/install/dynamixel_sdk:/home/ros/colcon_ws/src/install/dynamixel_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ros/colcon_ws/src/install/dynamixel_sdk/lib:/home/ros/colcon_ws/src/install/dynamixel_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/home/ros/colcon_ws/src/install/dynamixel_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ros/colcon_ws/src/dynamixel_hardware_interface -DCMAKE_INSTALL_PREFIX=/home/ros/colcon_ws/src/install/dynamixel_hardware_interface
+[0.245s] -- The C compiler identification is GNU 11.4.0
+[0.443s] -- The CXX compiler identification is GNU 11.4.0
+[0.475s] -- Detecting C compiler ABI info
+[0.806s] -- Detecting C compiler ABI info - done
+[0.827s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.828s] -- Detecting C compile features
+[0.832s] -- Detecting C compile features - done
+[0.846s] -- Detecting CXX compiler ABI info
+[1.181s] -- Detecting CXX compiler ABI info - done
+[1.194s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.199s] -- Detecting CXX compile features
+[1.201s] -- Detecting CXX compile features - done
+[1.219s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.832s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.353s] -- Found hardware_interface: 2.53.1 (/opt/ros/humble/share/hardware_interface/cmake)
+[2.572s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.599s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.645s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.709s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.799s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.794s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.813s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.945s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[4.150s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.167s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[4.218s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.237s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[4.269s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[4.302s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.352s] -- Looking for pthread.h
+[4.673s] -- Looking for pthread.h - found
+[4.674s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.952s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.958s] -- Found Threads: TRUE  
+[5.202s] -- Found realtime_tools: 2.15.0 (/opt/ros/humble/share/realtime_tools/cmake)
+[5.270s] -- Found dynamixel_sdk: 4.0.3 (/home/ros/colcon_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/cmake)
+[5.286s] -- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)
+[5.330s] -- Found dynamixel_interfaces: 1.0.1 (/home/ros/colcon_ws/src/install/dynamixel_interfaces/share/dynamixel_interfaces/cmake)
+[5.378s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.816s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.853s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.854s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ros/colcon_ws/src/dynamixel_hardware_interface/include>
+[5.854s] -- Configured cppcheck exclude dirs and/or files: 
+[5.888s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.888s] -- Configured cpplint exclude dirs and/or files: 
+[5.902s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.914s] -- Added test 'lint_cmake' to check CMake code style
+[5.920s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.947s] -- Added test 'uncrustify' to check C / C++ code style
+[5.947s] -- Configured uncrustify additional arguments: 
+[5.952s] -- Added test 'xmllint' to check XML markup files
+[5.996s] -- Configuring done
+[6.105s] -- Generating done
+[6.136s] -- Build files have been written to: /home/ros/colcon_ws/src/build/dynamixel_hardware_interface
+[6.188s] Invoked command in '/home/ros/colcon_ws/src/build/dynamixel_hardware_interface' returned '0': AMENT_PREFIX_PATH=/home/ros/colcon_ws/src/install/dynamixel_sdk:/home/ros/colcon_ws/src/install/dynamixel_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/colcon_ws/src/install/dynamixel_sdk:/home/ros/colcon_ws/src/install/dynamixel_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ros/colcon_ws/src/install/dynamixel_sdk/lib:/home/ros/colcon_ws/src/install/dynamixel_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/home/ros/colcon_ws/src/install/dynamixel_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ros/colcon_ws/src/dynamixel_hardware_interface -DCMAKE_INSTALL_PREFIX=/home/ros/colcon_ws/src/install/dynamixel_hardware_interface
+[6.194s] Invoking command in '/home/ros/colcon_ws/src/build/dynamixel_hardware_interface': AMENT_PREFIX_PATH=/home/ros/colcon_ws/src/install/dynamixel_sdk:/home/ros/colcon_ws/src/install/dynamixel_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/colcon_ws/src/install/dynamixel_sdk:/home/ros/colcon_ws/src/install/dynamixel_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ros/colcon_ws/src/install/dynamixel_sdk/lib:/home/ros/colcon_ws/src/install/dynamixel_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/home/ros/colcon_ws/src/install/dynamixel_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros/colcon_ws/src/build/dynamixel_hardware_interface -- -j8 -l8
+[6.392s] [ 25%] [32mBuilding CXX object CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel_hardware_interface.cpp.o[0m
+[6.392s] [ 75%] [32mBuilding CXX object CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel/dynamixel_info.cpp.o[0m
+[6.394s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel/dynamixel.cpp.o[0m
+[24.021s] [100%] [32m[1mLinking CXX shared library libdynamixel_hardware_interface.so[0m
+[24.679s] [100%] Built target dynamixel_hardware_interface
+[24.689s] Invoked command in '/home/ros/colcon_ws/src/build/dynamixel_hardware_interface' returned '0': AMENT_PREFIX_PATH=/home/ros/colcon_ws/src/install/dynamixel_sdk:/home/ros/colcon_ws/src/install/dynamixel_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/colcon_ws/src/install/dynamixel_sdk:/home/ros/colcon_ws/src/install/dynamixel_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ros/colcon_ws/src/install/dynamixel_sdk/lib:/home/ros/colcon_ws/src/install/dynamixel_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/home/ros/colcon_ws/src/install/dynamixel_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros/colcon_ws/src/build/dynamixel_hardware_interface -- -j8 -l8
+[24.690s] Invoking command in '/home/ros/colcon_ws/src/build/dynamixel_hardware_interface': AMENT_PREFIX_PATH=/home/ros/colcon_ws/src/install/dynamixel_sdk:/home/ros/colcon_ws/src/install/dynamixel_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/colcon_ws/src/install/dynamixel_sdk:/home/ros/colcon_ws/src/install/dynamixel_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ros/colcon_ws/src/install/dynamixel_sdk/lib:/home/ros/colcon_ws/src/install/dynamixel_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/home/ros/colcon_ws/src/install/dynamixel_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros/colcon_ws/src/build/dynamixel_hardware_interface
+[24.697s] -- Install configuration: ""
+[24.697s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/dynamixel_hardware_interface_plugin.xml
+[24.697s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/lib/libdynamixel_hardware_interface.so
+[24.705s] -- Set runtime path of "/home/ros/colcon_ws/src/install/dynamixel_hardware_interface/lib/libdynamixel_hardware_interface.so" to ""
+[24.705s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/include
+[24.705s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/include/dynamixel_hardware_interface
+[24.706s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/include/dynamixel_hardware_interface/dynamixel_hardware_interface.hpp
+[24.706s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/include/dynamixel_hardware_interface/dynamixel
+[24.706s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/include/dynamixel_hardware_interface/dynamixel/dynamixel_info.hpp
+[24.706s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/include/dynamixel_hardware_interface/dynamixel/dynamixel.hpp
+[24.706s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/include/dynamixel_hardware_interface/visibility_control.h
+[24.707s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/lib/dynamixel_hardware_interface/create_udev_rules
+[24.707s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface//scripts
+[24.707s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface//scripts/cluster_model_files.py
+[24.707s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface//scripts/check_model_file_formatting.py
+[24.707s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface//scripts/99-manipulator-cdc.rules
+[24.708s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface//scripts/create_udev_rules
+[24.708s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface//scripts/hx_synctable_model_generator.py
+[24.708s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface//scripts/xml_to_model_parser.py
+[24.708s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param
+[24.708s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model
+[24.709s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_2_device_5.model
+[24.709s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/mx_28.model
+[24.709s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xl330_m288.model
+[24.709s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xl330_m077.model
+[24.710s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/2xl430_w250.model
+[24.710s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ym070_210_a051.model
+[24.710s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_3_device_2.model
+[24.710s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_2_device_4.model
+[24.711s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/dynamixel.model
+[24.711s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_1_device_3.model
+[24.711s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xh540_w270.model
+[24.711s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/mx_64.model
+[24.711s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xl430_w250.model
+[24.712s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xc330_t288_fw52.model
+[24.712s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xc330_m288.model
+[24.712s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ym080_230_r051.model
+[24.712s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xl330_m077_fw52.model
+[24.713s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ffw_g10_led.model
+[24.713s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xd430_t210.model
+[24.713s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xw430_t200.model
+[24.713s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_5_device_2.model
+[24.713s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ffw_sg2_drive_3.model
+[24.714s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/rh_p12_rn.model
+[24.714s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xc330_t288.model
+[24.714s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xd540_t150.model
+[24.714s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_4_device_2.model
+[24.714s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xm540_w270.model
+[24.715s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_1_device_5.model
+[24.715s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xh540_v150.model
+[24.715s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ph54_100_s500.model
+[24.715s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_3_device_5.model
+[24.715s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/omy_end.model
+[24.716s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/pm54_040_s250.model
+[24.716s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ffw_g40_imu.model
+[24.716s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xc430_w150.model
+[24.716s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_5_device_4.model
+[24.716s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xd430_t350.model
+[24.717s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xd540_t270.model
+[24.717s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_3_device_3.model
+[24.717s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xm430_w350.model
+[24.717s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xw540_h260.model
+[24.717s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xm540_w150.model
+[24.718s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xc430_w240.model
+[24.718s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xc335_t332.model
+[24.718s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ph54_200_s500.model
+[24.718s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xw540_t140.model
+[24.719s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_4_device_1.model
+[24.719s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xl320.model
+[24.719s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xh430_w350.model
+[24.719s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_3_device_1.model
+[24.720s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_2_device_3.model
+[24.720s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xc330_m181.model
+[24.720s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ym080_230_a099.model
+[24.720s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ph42_020_s300.model
+[24.720s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_rr.model
+[24.721s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xc330_m288_fw52.model
+[24.721s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/h54_200_s500_ra.model
+[24.721s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/m42_10_s260_ra.model
+[24.721s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_5_device_3.model
+[24.721s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/mx_106.model
+[24.722s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ym080_230_m001.model
+[24.722s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/omy_hat.model
+[24.722s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ym070_210_a099.model
+[24.722s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/pm54_060_s250.model
+[24.723s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ym070_210_m001.model
+[24.723s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xw430_t333.model
+[24.723s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ffw_sg2_drive_2.model
+[24.723s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_5_device_1.model
+[24.723s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xh540_v270.model
+[24.724s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ym080_230_r099.model
+[24.724s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_2_device_1.model
+[24.724s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/2xc430_w250.model
+[24.724s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/omy_end_rh_p12_rn.model
+[24.724s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/h42_20_s300_ra.model
+[24.725s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_4_device_5.model
+[24.725s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xh430_w210.model
+[24.725s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xl330_m288_fw52.model
+[24.725s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_1_device_4.model
+[24.725s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/sensorxel_joy.model
+[24.726s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/pm42_010_s260.model
+[24.726s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xh430_v210.model
+[24.726s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_4_device_3.model
+[24.726s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_4_device_4.model
+[24.727s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ffw_sg2_steer_3.model
+[24.727s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/h54_100_s500_ra.model
+[24.727s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_5_device_5.model
+[24.727s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xw540_t260.model
+[24.727s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xc330_t181_fw52.model
+[24.728s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ffw_sg2_steer_1.model
+[24.728s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ffw_sg2_drive_1.model
+[24.728s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xm430_w210.model
+[24.728s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ym070_210_r099.model
+[24.729s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ym070_210_r051.model
+[24.729s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ym070_210_b001.model
+[24.729s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_1_device_1.model
+[24.729s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ffw_sg2_steer_2.model
+[24.729s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ym080_230_b001.model
+[24.730s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ffw_g10_rcu.model
+[24.730s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xh430_v350.model
+[24.730s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xc330_m181_fw52.model
+[24.730s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/m54_60_s250_ra.model
+[24.730s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ym080_230_a051.model
+[24.731s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xh540_w150.model
+[24.731s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_rl.model
+[24.731s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_3_device_4.model
+[24.731s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xc330_t181.model
+[24.732s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_2_device_2.model
+[24.732s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_1_device_2.model
+[24.732s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/m54_40_s250_ra.model
+[24.732s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/environment/library_path.sh
+[24.733s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/environment/library_path.dsv
+[24.733s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/ament_index/resource_index/package_run_dependencies/dynamixel_hardware_interface
+[24.733s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/ament_index/resource_index/parent_prefix_path/dynamixel_hardware_interface
+[24.733s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/environment/ament_prefix_path.sh
+[24.733s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/environment/ament_prefix_path.dsv
+[24.733s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/environment/path.sh
+[24.733s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/environment/path.dsv
+[24.734s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/local_setup.bash
+[24.734s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/local_setup.sh
+[24.734s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/local_setup.zsh
+[24.734s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/local_setup.dsv
+[24.734s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/package.dsv
+[24.734s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/ament_index/resource_index/packages/dynamixel_hardware_interface
+[24.734s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/dynamixel_hardware_interface
+[24.735s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/cmake/export_dynamixel_hardware_interfaceExport.cmake
+[24.735s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/cmake/export_dynamixel_hardware_interfaceExport-noconfig.cmake
+[24.735s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[24.735s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[24.735s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/cmake/ament_cmake_export_targets-extras.cmake
+[24.735s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[24.735s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/cmake/dynamixel_hardware_interfaceConfig.cmake
+[24.736s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/cmake/dynamixel_hardware_interfaceConfig-version.cmake
+[24.736s] -- Installing: /home/ros/colcon_ws/src/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/package.xml
+[24.738s] Invoked command in '/home/ros/colcon_ws/src/build/dynamixel_hardware_interface' returned '0': AMENT_PREFIX_PATH=/home/ros/colcon_ws/src/install/dynamixel_sdk:/home/ros/colcon_ws/src/install/dynamixel_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/colcon_ws/src/install/dynamixel_sdk:/home/ros/colcon_ws/src/install/dynamixel_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ros/colcon_ws/src/install/dynamixel_sdk/lib:/home/ros/colcon_ws/src/install/dynamixel_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros/colcon_ws/src/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/home/ros/colcon_ws/src/install/dynamixel_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros/colcon_ws/src/build/dynamixel_hardware_interface

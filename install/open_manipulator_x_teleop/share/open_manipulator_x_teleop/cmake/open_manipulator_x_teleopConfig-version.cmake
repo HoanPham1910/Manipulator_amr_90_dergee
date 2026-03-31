@@ -1,1 +1,14 @@
-/home/hoan/colcon_ws/build/open_manipulator_x_teleop/ament_cmake_core/open_manipulator_x_teleopConfig-version.cmake
+# generated from ament/cmake/core/templates/nameConfig-version.cmake.in
+set(PACKAGE_VERSION "3.0.4")
+
+set(PACKAGE_VERSION_EXACT False)
+set(PACKAGE_VERSION_COMPATIBLE False)
+
+if("${PACKAGE_FIND_VERSION}" VERSION_EQUAL "${PACKAGE_VERSION}")
+  set(PACKAGE_VERSION_EXACT True)
+  set(PACKAGE_VERSION_COMPATIBLE True)
+endif()
+
+if("${PACKAGE_FIND_VERSION}" VERSION_LESS "${PACKAGE_VERSION}")
+  set(PACKAGE_VERSION_COMPATIBLE True)
+endif()

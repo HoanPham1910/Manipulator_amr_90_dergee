@@ -1,0 +1,4 @@
+/home/ros/colcon_ws/src/build/dynamixel_interfaces/rosidl_adapter/dynamixel_interfaces:msg/DynamixelState.idl
+/home/ros/colcon_ws/src/build/dynamixel_interfaces/rosidl_adapter/dynamixel_interfaces:srv/GetDataFromDxl.idl
+/home/ros/colcon_ws/src/build/dynamixel_interfaces/rosidl_adapter/dynamixel_interfaces:srv/SetDataToDxl.idl
+/home/ros/colcon_ws/src/build/dynamixel_interfaces/rosidl_adapter/dynamixel_interfaces:srv/RebootDxl.idl

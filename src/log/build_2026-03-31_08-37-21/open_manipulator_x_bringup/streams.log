@@ -1,0 +1,53 @@
+[0.013s] Invoking command in '/home/ros/colcon_ws/src/build/open_manipulator_x_bringup': AMENT_PREFIX_PATH=/home/ros/colcon_ws/src/install/open_manipulator_x_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/colcon_ws/src/install/open_manipulator_x_description:/opt/ros/humble /usr/bin/cmake /home/ros/colcon_ws/src/open_manipulator/open_manipulator_x_bringup -DCMAKE_INSTALL_PREFIX=/home/ros/colcon_ws/src/install/open_manipulator_x_bringup
+[0.105s] -- The C compiler identification is GNU 11.4.0
+[0.190s] -- The CXX compiler identification is GNU 11.4.0
+[0.205s] -- Detecting C compiler ABI info
+[0.373s] -- Detecting C compiler ABI info - done
+[0.388s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.389s] -- Detecting C compile features
+[0.389s] -- Detecting C compile features - done
+[0.399s] -- Detecting CXX compiler ABI info
+[0.743s] -- Detecting CXX compiler ABI info - done
+[0.770s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.770s] -- Detecting CXX compile features
+[0.777s] -- Detecting CXX compile features - done
+[0.787s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.248s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.929s] -- Configuring done
+[1.937s] -- Generating done
+[1.940s] -- Build files have been written to: /home/ros/colcon_ws/src/build/open_manipulator_x_bringup
+[1.960s] Invoked command in '/home/ros/colcon_ws/src/build/open_manipulator_x_bringup' returned '0': AMENT_PREFIX_PATH=/home/ros/colcon_ws/src/install/open_manipulator_x_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/colcon_ws/src/install/open_manipulator_x_description:/opt/ros/humble /usr/bin/cmake /home/ros/colcon_ws/src/open_manipulator/open_manipulator_x_bringup -DCMAKE_INSTALL_PREFIX=/home/ros/colcon_ws/src/install/open_manipulator_x_bringup
+[1.961s] Invoking command in '/home/ros/colcon_ws/src/build/open_manipulator_x_bringup': AMENT_PREFIX_PATH=/home/ros/colcon_ws/src/install/open_manipulator_x_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/colcon_ws/src/install/open_manipulator_x_description:/opt/ros/humble /usr/bin/cmake --build /home/ros/colcon_ws/src/build/open_manipulator_x_bringup -- -j8 -l8
+[2.119s] Invoked command in '/home/ros/colcon_ws/src/build/open_manipulator_x_bringup' returned '0': AMENT_PREFIX_PATH=/home/ros/colcon_ws/src/install/open_manipulator_x_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/colcon_ws/src/install/open_manipulator_x_description:/opt/ros/humble /usr/bin/cmake --build /home/ros/colcon_ws/src/build/open_manipulator_x_bringup -- -j8 -l8
+[2.120s] Invoking command in '/home/ros/colcon_ws/src/build/open_manipulator_x_bringup': AMENT_PREFIX_PATH=/home/ros/colcon_ws/src/install/open_manipulator_x_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/colcon_ws/src/install/open_manipulator_x_description:/opt/ros/humble /usr/bin/cmake --install /home/ros/colcon_ws/src/build/open_manipulator_x_bringup
+[2.134s] -- Install configuration: ""
+[2.135s] -- Installing: /home/ros/colcon_ws/src/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/launch
+[2.135s] -- Installing: /home/ros/colcon_ws/src/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/launch/fake.launch.py
+[2.135s] -- Installing: /home/ros/colcon_ws/src/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/launch/hardware.launch.py
+[2.135s] -- Installing: /home/ros/colcon_ws/src/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/launch/base.launch.py
+[2.139s] -- Installing: /home/ros/colcon_ws/src/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/launch/gazebo.launch.py
+[2.140s] -- Installing: /home/ros/colcon_ws/src/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/config
+[2.140s] -- Installing: /home/ros/colcon_ws/src/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/config/gazebo_controller_manager.yaml
+[2.140s] -- Installing: /home/ros/colcon_ws/src/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/config/hardware_controller_manager.yaml
+[2.140s] -- Installing: /home/ros/colcon_ws/src/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/rviz
+[2.143s] -- Installing: /home/ros/colcon_ws/src/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/rviz/open_manipulator_x.rviz
+[2.143s] -- Installing: /home/ros/colcon_ws/src/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/worlds
+[2.148s] -- Installing: /home/ros/colcon_ws/src/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/worlds/empty_world.model
+[2.148s] -- Installing: /home/ros/colcon_ws/src/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/99-open-manipulator-cdc.rules
+[2.149s] -- Installing: /home/ros/colcon_ws/src/install/open_manipulator_x_bringup/lib/open_manipulator_x_bringup/create_udev_rules
+[2.149s] -- Installing: /home/ros/colcon_ws/src/install/open_manipulator_x_bringup/share/ament_index/resource_index/package_run_dependencies/open_manipulator_x_bringup
+[2.149s] -- Installing: /home/ros/colcon_ws/src/install/open_manipulator_x_bringup/share/ament_index/resource_index/parent_prefix_path/open_manipulator_x_bringup
+[2.149s] -- Installing: /home/ros/colcon_ws/src/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/environment/ament_prefix_path.sh
+[2.149s] -- Installing: /home/ros/colcon_ws/src/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/environment/ament_prefix_path.dsv
+[2.149s] -- Installing: /home/ros/colcon_ws/src/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/environment/path.sh
+[2.150s] -- Installing: /home/ros/colcon_ws/src/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/environment/path.dsv
+[2.150s] -- Installing: /home/ros/colcon_ws/src/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/local_setup.bash
+[2.150s] -- Installing: /home/ros/colcon_ws/src/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/local_setup.sh
+[2.150s] -- Installing: /home/ros/colcon_ws/src/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/local_setup.zsh
+[2.150s] -- Installing: /home/ros/colcon_ws/src/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/local_setup.dsv
+[2.150s] -- Installing: /home/ros/colcon_ws/src/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/package.dsv
+[2.150s] -- Installing: /home/ros/colcon_ws/src/install/open_manipulator_x_bringup/share/ament_index/resource_index/packages/open_manipulator_x_bringup
+[2.151s] -- Installing: /home/ros/colcon_ws/src/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/cmake/open_manipulator_x_bringupConfig.cmake
+[2.152s] -- Installing: /home/ros/colcon_ws/src/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/cmake/open_manipulator_x_bringupConfig-version.cmake
+[2.152s] -- Installing: /home/ros/colcon_ws/src/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/package.xml
+[2.160s] Invoked command in '/home/ros/colcon_ws/src/build/open_manipulator_x_bringup' returned '0': AMENT_PREFIX_PATH=/home/ros/colcon_ws/src/install/open_manipulator_x_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/colcon_ws/src/install/open_manipulator_x_description:/opt/ros/humble /usr/bin/cmake --install /home/ros/colcon_ws/src/build/open_manipulator_x_bringup

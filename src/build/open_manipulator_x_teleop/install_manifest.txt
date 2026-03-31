@@ -1,0 +1,16 @@
+/home/ros/colcon_ws/src/install/open_manipulator_x_teleop/lib/open_manipulator_x_teleop/open_manipulator_x_teleop
+/home/ros/colcon_ws/src/install/open_manipulator_x_teleop/share/ament_index/resource_index/package_run_dependencies/open_manipulator_x_teleop
+/home/ros/colcon_ws/src/install/open_manipulator_x_teleop/share/ament_index/resource_index/parent_prefix_path/open_manipulator_x_teleop
+/home/ros/colcon_ws/src/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/environment/ament_prefix_path.sh
+/home/ros/colcon_ws/src/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/environment/ament_prefix_path.dsv
+/home/ros/colcon_ws/src/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/environment/path.sh
+/home/ros/colcon_ws/src/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/environment/path.dsv
+/home/ros/colcon_ws/src/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/local_setup.bash
+/home/ros/colcon_ws/src/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/local_setup.sh
+/home/ros/colcon_ws/src/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/local_setup.zsh
+/home/ros/colcon_ws/src/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/local_setup.dsv
+/home/ros/colcon_ws/src/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/package.dsv
+/home/ros/colcon_ws/src/install/open_manipulator_x_teleop/share/ament_index/resource_index/packages/open_manipulator_x_teleop
+/home/ros/colcon_ws/src/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/cmake/open_manipulator_x_teleopConfig.cmake
+/home/ros/colcon_ws/src/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/cmake/open_manipulator_x_teleopConfig-version.cmake
+/home/ros/colcon_ws/src/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/package.xml
